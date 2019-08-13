@@ -59,4 +59,6 @@ COPY scripts/ /usr/local/bin
 
 RUN chmod +x /usr/local/bin/reload.sh
 
+RUN usermod -u 1000 www-data
+RUN chown -R www-data:www-data /var/www/html
 #CMD /usr/local/bin/containerpilot -config /etc/containerpilot.json
