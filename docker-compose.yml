@@ -43,5 +43,5 @@ services:
     source_battle:
         image: nginx:stable
         volumes:
-            - ../source/battle:/var/www/html
+            - ./source/battle:/var/www/html
         command: "true"
