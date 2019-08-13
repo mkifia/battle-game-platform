@@ -1,2 +1,4 @@
 # battle-game
-A php microservices application with Lumen framework. #Docker | #PHPUnit | #Behat | #Lumen
+A PHP micro services application...
+ 
+##### #PHP | #Nginx | #Docker | #PHPUnit | #Behat | #Lumen | #Redis
