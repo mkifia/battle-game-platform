@@ -32,4 +32,4 @@ COPY scripts/ /usr/local/bin
 RUN chmod +x /usr/local/bin/reload.sh
 RUN chmod +x /usr/local/bin/sensor.sh
 
-CMD [ "/usr/local/bin/containerpilot", "nginx", "-g", "daemon off;"]
+#CMD /usr/local/bin/containerpilot -config /etc/containerpilot.json
