@@ -1,5 +1,6 @@
-# battle-game
-A PHP micro services application...
+## battle-game-platform 
+
+A Docker Platform for PHP micro services
  
 ##### #PHP | #Nginx | #Docker | #PHPUnit | #Behat | #Lumen | #Redis
 
